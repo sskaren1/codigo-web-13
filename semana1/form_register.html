@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    
+    <form action="" method="get">
+        <label for="nombre">Escriba sus nombres: </label>
+        <input type="text" name="nombre" id="nombre" required> <br/><br/>
+        
+        <label for="apellido">Escriba sus apellidos: </label>
+        <input type="text" name="apellido" id="apellido" required> <br/><br/>
+
+        <label for="email">Escriba su email </label>
+        <input type="email" name="email" id="email" required/> <br/><br/>
+
+        <label for="dni">Escriba su dni </label>
+        <input type="number"  minlength="8" name="dni" id="dni" required/> <br/><br/>
+
+        <label for="direccion">Escriba su dirección</label>
+        <input type="text" name="direccion" id="direccion"/> <br/><br/>
+
+        <label for="sexo">Sexo</label><br/>
+        <input type="radio" name="sexo" id="sexo"/>Femenino <br/><br/>
+        <input type="radio" name="sexo" id="sexo"/>Masculino <br/><br/>
+
+        <label for="fechaNacimiento">Fecha de nacimiento</label>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento"/> <br/><br/>
+
+        <label for="telefono">Escriba su teléfono</label>
+        <input type="tel" name="telefono" id="telefono"/> <br/><br/>
+
+        <label for="url">Website link</label>
+        <input type="url" name="url" id="url"/> <br/><br/>
+
+        <label for="horario">Elija el horario en que desa ser contactado</label><br/>
+        <input type="checkbox" name="horario[]" id="horario" checked/>Mañana <br/><br/>
+        <input type="checkbox" name="horario[]" id="horario"/>Tarde <br/><br/>
+        <input type="checkbox" name="horario[]" id="horario"/>Noche <br/><br/>
+
+        <label for="cv">Ingrese su CV</label>
+        <input type="file" accept="application/pdf" id="cv" /> <br/><br/>
+
+        <input type="submit" name="submit" value="Ingresar"/> <br/>
+    </form>
+    <h4><a href="./tarea.html">Regresar</a></h4>
+</body>
+</html>
