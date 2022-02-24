@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Courier New", Courier, monospace;
+}
+.gradiente-uno{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg ,rgb(251, 95, 74),rgb(19, 19, 117),black,rgb(82, 3, 3));
+    color: #fff;
+}
+.gradiente-dos{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to right bottom ,rgb(81, 167, 102),rgb(39, 120, 128),rgb(104, 29, 81));
+}
+
+.gradiente-tres{
+    width: 600px;
+    height: 600px;
+    background: linear-gradient( 360deg,rgb(65, 9, 57),rgb(0, 203, 218) 80%),
+    linear-gradient(127deg ,rgb(251, 95, 74),rgb(19, 19, 117) 10%),
+    linear-gradient(300deg ,rgb(81, 167, 102),rgb(39, 120, 128),rgb(104, 29, 81) 10%);
+    color: #fff;
+}

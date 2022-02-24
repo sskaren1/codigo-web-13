@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner {
+    background-color: rgb(255, 183, 49);
+    height: 40vh;
+    /* width: 99.4vw; */
+    width: 80%;
+}
+.titulo {
+  font-size: 4em;
+  color: rebeccapurple;
+}
+
+.parrafo {
+  font-size: 50px;
+}
+
+.banner-medio {
+  height: 20vh;
+  background-color: rgb(255, 49, 210);
+  width: 70%;
+}
+/* 1-100 es una pantalla */
+.banner-dos {
+  background-color: rgb(36, 201, 216);
+  height: 40vh;
+  width: 60%;
+}
+.banner-tres {
+  background-color: rgb(60, 52, 168);
+  height: 50vh;
+  width: 50%;
+}
+.banner-cuatro{
+    background-color: rgb(85, 15, 85);
+    height: 40vh;
+    min-width: 50%;
+    max-width: 80%;
+}
+  

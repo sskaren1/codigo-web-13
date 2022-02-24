@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: red;
+    background-color: black;
+}
+h2{
+    color: green;
+    background-color: black;
+}
+p{
+    color: violet;
+    /* background-color: black; */
+}
+a{
+    color: pink;
+    background-color: black;
+}
+#contenedor-dos{
+    background-color: yellow;
+}
+
+.contenedor-principal{
+    background-color: violet;
+    padding: 30px;
+    margin: 10px 0;
+}
+.btn-ingresar, .btn-registro{
+    background-color: rgb(119, 3, 103);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-registro{
+    font-size: 3rem;
+}
+.contenedor-form{
+    border: 3px solid rgb(255, 136, 0);
+    border-radius: 8px;
+    text-align: center;
+}
+.contenedor-interno-form{
+    padding: 20px;
+}
+.titulo-form{
+    color: rgb(14, 139, 255);
+    background-color: #fff;
+}
+.input-form{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px #000 solid;
+    width: 400px;
+}
+.input-codigo{
+    width: 100px;
+}
+.input-numero{
+    width: 275px;
+}
+
+.btn-ingresar-submit,.btn-submit{
+    background-color: rgb(119, 3, 103);
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-ingresar-submit:hover{
+    background-color:rgb(175, 153, 216) ;
+    color: #000;
+    text-decoration: none;
+}
+form > div > h2:nth-child(odd){
+    border: 5px red solid;
+}

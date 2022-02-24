@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: Arial;
+}
+.container p{
+    color: rgb(185, 40, 40);
+}
+.container-2 h2{
+    color :rgb(76, 42, 187);
+}
+.container-3 a img{
+    border: 2px solid rgb(27, 117, 173);
+}
+.menu-navegation{
+    margin: 30px;
+}
+.navegation__link{
+    border: 2px solid rgb(69, 219, 119);
+}
+input[type="email"]{
+    background-color: brown;
+}
+input[type="text"]{
+    color: rgb(34, 59, 112);
+}
+input[type="password"]{
+    color: rgb(96, 134, 35);
+}

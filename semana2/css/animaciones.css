@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;/*para ocultar el escroll que sale por la animacion*/
+}
+.texto-animado{
+    animation-name: texto-volador;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: solid;
+}
+@keyframes texto-volador{
+    from{
+        margin-left: 100%;
+        width: 300%;
+        background-color: aqua;
+        border: none;
+    }
+    to{
+        margin-left: -100%;
+        background-color: rgb(161, 27, 61);
+        border: none;
+    }
+}
+.image-animada{
+    animation-name: image-resize;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation-fill-mode: forwards;
+}
+@keyframes image-resize {
+    from{
+        width: 20%;
+        /* height: 20%; */
+    }
+    to{
+        width: 30%;
+        /* height: 50%; */
+    }
+    
+}
+.box-uno{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    animation-name: box-animation;
+    animation-duration: 10s;
+}
+
+@keyframes box-animation {
+    0%{
+        background-color: black;
+    }    
+    25%{
+        background-color: saddlebrown;
+    }
+    50%{
+        background-color: rgb(61, 21, 98);
+    }
+    75%{
+        background-color: rgb(28, 108, 128);
+    }
+    100%{
+        background-color: green;
+    }
+}
+.ball-uno{
+    margin-top: 70px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: purple;
+    animation-name: ball-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes ball-animation {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-135px);
+    }
+    /* 0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(100px);
+    }
+    50%{
+        transform: translateY(200px);
+    }
+    75%{
+        transform: translateY(150px);
+    }
+    100%{
+        transform: translateY(-50px);
+    } */
+}
+
+/* animation-name: texto-animado-dos;
+  animation-duration: 2s;
+  animation-timing-function: steps(144);
+  animation-fill-mode: both;
+  animation-direction: normal;
+  animation-delay: 1s; */
+
+  .lineas {
+    position: relative;
+    text-align: center;
+    width: 600px;
+    margin: 2rem auto 0;
+    font-size: 24px;
+    white-space: nowrap;
+    border-right: 2px solid rgb(90, 5, 105);
+    transform: translateY(-50%);
+    overflow: hidden;/*oculta las demas letras*/
+  }
+  
+  .texto-animado-dos {
+    animation: texto-animado-dos 5s steps(144) 1s normal both,
+      cursor 0.5s steps(50) infinite normal;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes texto-animado-dos {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 600px;
+    }
+  }
+  
+  @keyframes cursor {
+    from {
+      border-right-color: rgb(67, 4, 83);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }

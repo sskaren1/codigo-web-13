@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica;
+  }
+h3 {
+    font-size: 3em;
+    margin: 20px;
+}
+
+.link-referencia {
+  background-color: rgb(240, 199, 16);
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px;
+}
+  
+.link-referencia:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.contenedor-principal {
+  text-align: center;
+  height: 100vh;
+}
+.imagen-perfil {
+  border-radius: 50%;
+  border: 2px solid #000;
+  /* text-align: right; */
+  width: 10rem;
+  /* display: block; */
+}
+.btn-github {
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.imagen-programador {
+  border-radius: 12px;
+  margin-top: 40px;
+}
+.contenedor-principal p {
+  font-size: 18px;
+  width: 400px;
+}
+.contenedor-clases {
+  height: 100vh;
+  background-color: rgb(230, 202, 113);
+}
+
+.lista-semanas {
+  margin: 40px;
+  padding: 40px;
+  list-style: none;
+}
+  
+.divisor {
+  margin: 20px;
+  height: 4px;
+  background-color: #000;
+  border: none;
+  border-radius: 12px;
+}
+  
+.lista-semanas li {
+  padding: 20px;
+}
+  
+  

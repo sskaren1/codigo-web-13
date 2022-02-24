@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid-container > *{
+    padding: 20px;
+    border: solid;
+    text-align: center;
+}
+.header{
+    background-color: rgb(20, 161, 161);
+    grid-area: header;
+}
+.nav{
+    background-color: rgb(114, 19, 138);
+    grid-area:navbar;
+}
+.aside{
+    background-color: rgb(170, 202, 28);
+    grid-area:sidebar;
+}
+.section{
+    background-color: rgb(197, 161, 41);
+    grid-area:main;
+}
+.footer{
+    background-color: rgb(32, 22, 121);
+    grid-area:footer;
+}
+.grid-container{
+    height: 100vh;
+    display: grid;
+    /* ** grid-template-areas */
+    /* sirve para asignar un nombre a 
+    las columans y filas */
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 100px auto 100px 100px;
+    grid-template-areas: 
+    "header header header"
+    "navbar main sidebar"
+    /* "navbar main sidebar"
+    "navbar main sidebar" */
+    "footer footer footer";
+}
