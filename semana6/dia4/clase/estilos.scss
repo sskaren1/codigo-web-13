@@ -1,0 +1,43 @@
+//* Una de la formas de importar un scss es usando el @import
+//* Una vez que importamos nuestro archivo ya podemos usar
+//* sus variable, funciones, bucles
+@import "./variables.scss";
+
+body {
+  margin: $padding-1;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: $color-princial;
+}
+
+h1 {
+  color: $color-red;
+  padding: $padding-1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@mixin alert($bg:green){
+    background-color: $bg;
+    padding: $padding-1;
+    border-radius: $padding-1;
+    color: #fff;
+    margin-bottom: $padding-1;
+}
+
+.success{
+    @include alert;
+}
+
+.info{
+    @include alert($bg:rgb(37, 194, 241));
+}
+
+.warning{
+    @include alert($bg:rgb(229, 245, 47));
+}
+
+.danger{
+    @include alert($bg:rgb(214, 11, 11));
+}
+
+
